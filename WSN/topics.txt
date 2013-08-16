@@ -1,0 +1,11 @@
+Wireless Sensor Networks
+
+Quantum Networking
+-quantum entanglement
+-deep space
+
+Deepspace communications
+-laser
+-quantum networking
+
+Point-to-point using leds/laser

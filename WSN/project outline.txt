@@ -1,0 +1,27 @@
+STAR topology
+
+central node
+-coordinator
+-On all the time
+-replies with ack
+-asks for retrans when error detected
+-GPS
+-timekeeping
+-connected to PC and processing
+
+outer nodes
+-sleep
+-wake up
+-send data
+-wait for ack
+-if no ack, wait rnd, then retrans
+-if no ack sleep again
+
+
+
+Transmission guideline
+-1st byte: Header
+-2nd byte: ID
+-3rd-xth byte: Data
+-last byte: checksum
+
